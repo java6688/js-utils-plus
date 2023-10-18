@@ -1,0 +1,22 @@
+{
+  "name": "js-uitls-plus",
+  "version": "1.0.0",
+  "description": "rollup打包常用js工具库",
+  "main": "dist/index.js",
+  "keywords": ["utils", "liu", "js"],
+  "author": "running-plus",
+  "license": "ISC",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c",     
+    "serve": "rollup -c -w"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "rollup": "^4.1.4"
+  }
+}
