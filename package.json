@@ -1,17 +1,20 @@
 {
-  "name": "js-uitls-plus",
-  "version": "1.0.0",
+  "name": "js-utils-plus",
+  "version": "1.0.6",
   "description": "rollup打包常用js工具库",
   "main": "dist/index.js",
   "keywords": ["utils", "liu", "js"],
   "author": "running-plus",
-  "license": "ISC",
-  "type": "module",
+  "license": "MIT",
   "files": [
     "dist/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/java6688/js-utils-plus.git"
+  },  
   "scripts": {
-    "build": "rollup -c",     
+    "build": "rollup -c",
     "serve": "rollup -c -w"
   },
   "dependencies": {

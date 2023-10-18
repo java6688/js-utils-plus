@@ -7,12 +7,12 @@ export default {
     {
       file: './es/index.js',
       format: 'esm',  // 将软件包保存为 ES 模块文件
-      name: 'js-utils'
+      name: 'js-utils-plus'
     },
     {
       file: './dist/index.js',
       format: 'cjs',  // CommonJS，适用于 Node 和 Browserify/Webpack
-      name: 'js-utils',
+      name: 'js-utils-plus',
       exports: 'default'
     }
   ],
